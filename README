@@ -8,3 +8,5 @@ The implemented data structures are: Bruteforce (for reference), Sort and Sweep 
 Uniform Grid, Hierarchical Grid, Octree, Loose Octree, Kd-Tree (using SAH).
 
 A small demo application was written (using GLUT) to help visualize and compare the tested data structures.
+
+Please see LICENSE file for License information. All code is (c) Mykola Konyk, 2008.
