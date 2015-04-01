@@ -4,7 +4,7 @@ This project is a benchmark tool used to assess performance of different collisi
 
 Most of these data structures were taken Christer Ericson's Real-Time collision detection (Morgan Kaufmann Publishers 2004) book.
 
-The Kd-Tree SAH idea was taken from Maxim Shevtsov, Alexei Soupikov, Alexander Kapustin,
+The Kd-Tree SAH idea was taken from Maxim Shevtsov, Alexei Soupikov, Alexander  Kapustin,
 Intel  Corporation, 2007, "Highly Parallel Fast KD‐tree Construction for Interactive Ray Tracing of Dynamic Scenes" paper.
 
 The implemented data structures are:  
