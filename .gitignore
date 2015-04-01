@@ -2,19 +2,4 @@
 .DS_Store
 
 # Ignore build and temp directories.
-build
-temp
-
-# Ignore makefile produced files.
-*.o
-
-# Ignore xcode user specific files.
-*.xcodeproj/*.pbxuser
-*.xcodeproj/*.perspective
-*.xcodeproj/*.perspectivev3
-*.xcodeproj/*.mode1v3
-*.xcodeproj/*.mode2v3
-
-# Ignore xcode 4 user specific files.
-*.xcodeproj/project.xcworkspace/*
-*.xcodeproj/xcuserdata*
+_bin*
