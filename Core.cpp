@@ -43,9 +43,15 @@
     #include <OpenGL/glu.h>
     #include <GLUT/glut.h>
 
+#elif _MSC_VER
+
+    #include <Windows.h>
+    #include <GL/gl.h>
+    #include <GL/glu.h>
+    #include <GL/glut.h>
+
 #else
 
-    // [rad] I am not sure, but I think that's the way it's supposed to be on Linux
     #include <GL/gl.h>
     #include <GL/glu.h>
     #include <GL/glut.h>
