@@ -1,8 +1,15 @@
-CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8.1)
 SET(CMAKE_ALLOW_LOOSE_LOOP_CONSTRUCTS true)
 CMAKE_POLICY(SET CMP0003 NEW)
+CMAKE_POLICY(SET CMP0015 NEW)
 
 PROJECT(spatial-benchmark)
+
+if (${CMAKE_SYSTEM_NAME} MATCHES Windows)
+    set (SB_FREEGLUT_DIR "${CMAKE_SOURCE_DIR}/freeglut")
+    include_directories (${SB_FREEGLUT_DIR}/include)
+    link_directories (${SB_FREEGLUT_DIR}/lib)
+endif ()
 
 set (sb_sources
     BruteForce.cpp
@@ -39,5 +46,5 @@ if (${CMAKE_SYSTEM_NAME} MATCHES Darwin)
 elseif (${CMAKE_SYSTEM_NAME} MATCHES Linux)
     target_link_libraries (spatial-benchmark glut GLU GL)
 elseif (${CMAKE_SYSTEM_NAME} MATCHES Windows)
-    target_link_libraries (spatial-benchmark glut32 opengl32)
+    target_link_libraries (spatial-benchmark freeglut opengl32)
 endif()
