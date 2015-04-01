@@ -770,7 +770,7 @@ namespace SpatialTest
 
         for(i32Index = 0; i32Index < s_i32BinCount; i32Index++)
         {
-            i32BinDiff = fabs(s_vecSums[i32Index].first - s_vecSums[s_i32BinCount - i32Index - 1].second);
+            i32BinDiff = fabs((float) s_vecSums[i32Index].first - s_vecSums[s_i32BinCount - i32Index - 1].second);
 
             if(i32BinDiff < i32MinDiff)
             {
