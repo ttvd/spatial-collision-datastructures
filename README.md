@@ -1,6 +1,6 @@
 ![Spatial Collision Test Image](http://i.imgur.com/VqIZUMS.png)  
 
-This project is a benchmark tool used to access performance of different collision detection data structures.
+This project is a benchmark tool used to assess performance of different collision detection data structures.
 
 Most of these data structures were taken Christer Ericson's Real-Time collision detection (Morgan Kaufmann Publishers 2004) book.
 
