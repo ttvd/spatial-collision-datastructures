@@ -1,3 +1,5 @@
+![Spatial Collision Test Image](http://i.imgur.com/VqIZUMS.png)  
+
 This project is a benchmark tool used to access performance of different collision detection data structures.
 
 Most of these data structures were taken Christer Ericson's Real-Time collision detection (Morgan Kaufmann Publishers 2004) book.
@@ -14,7 +16,7 @@ The implemented data structures are:
 * Loose Octree  
 * Kd-Tree (using SAH)  
 
-A small demo application was written (using GLUT and FF OpenGL) to help visualize and compare the tested data structures. 
+A small demo application was written (using GLUT and FF OpenGL) to help visualize and compare the tested data structures.
 
 
 Please see LICENSE file for License information.  
