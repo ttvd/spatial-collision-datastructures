@@ -14,7 +14,7 @@ The implemented data structures are:
 * Loose Octree  
 * Kd-Tree (using SAH)  
 
-A small demo application was written (using GLUT and FF OpenGL) to help visualize and compare the tested data structures.
+A small demo application was written (using GLUT and FF OpenGL) to help visualize and compare the tested data structures. 
 
 
 Please see LICENSE file for License information.  
