@@ -40,7 +40,7 @@
 
 // [rad] We need floorf, ceilf
 #include <math.h>
-
+#include <cstdlib>
 
 namespace SpatialTest
 {

@@ -39,6 +39,7 @@
 #include "SortAndSweep.h"
 
 #include <algorithm>
+#include <cstdlib>
 
 namespace SpatialTest
 {

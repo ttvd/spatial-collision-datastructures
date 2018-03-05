@@ -38,6 +38,7 @@
 
 #include "Base.h"
 #include "SphereObject.h"
+#include <cstdlib>
 
 namespace SpatialTest
 {
