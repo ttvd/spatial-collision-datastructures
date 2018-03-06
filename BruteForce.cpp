@@ -37,6 +37,7 @@
  */
 
 #include "BruteForce.h"
+#include <cstdlib>
 
 namespace SpatialTest
 {

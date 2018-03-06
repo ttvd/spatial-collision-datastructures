@@ -65,6 +65,7 @@
 #include <vector>
 #include <string>
 #include <sstream>
+#include <cstdlib>
 
 #include "ISpatialStructure.h"
 #include "ISpatialObject.h"

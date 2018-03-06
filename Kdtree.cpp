@@ -41,6 +41,7 @@
 
 #include <math.h>
 #include <limits>
+#include <cstdlib> 
 
 namespace SpatialTest
 {

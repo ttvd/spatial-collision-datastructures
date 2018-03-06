@@ -38,6 +38,7 @@
 
 #include "Base.h"
 #include "Octree.h"
+#include <cstdlib>
 
 namespace SpatialTest
 {
